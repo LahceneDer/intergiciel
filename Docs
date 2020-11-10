@@ -1,0 +1,31 @@
+-PRESENTAION:
+   -I follow all this steps to achieve the required pattterns
+	1- Creating a Dockerfile for the image 
+	2- Building container for each image
+	3- Running each container image
+	4- Pushing each image to DOCKER HUB (My Account)
+	5- Setting up a Kubernetes cluster
+	6- Deploying each container to a Kubernetes Pod
+	7- Creating Servies Objects
+	8- Creating Deployments
+	9- Creating Volume for each container 
+	10- Creating an APIGateway + Ingress
+  with docker and kubectl commands
+ 
+-ALL Patterns :
+	-Decomposion pattern
+	-Discovery pattern
+	-Communication pattern
+	-CQRS pattern => volummes
+        -Configuration pattern
+	-Containerization (Docker)
+
+-With 6 microservices :
+	-Auth-service
+	-movies-service
+	-cinema-catalog-service
+	-booking-service
+	-notification-service
+	-payment-service
+  +SendGrid service for email confirmation
+	

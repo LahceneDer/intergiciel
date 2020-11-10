@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cinemaapi
+spec:
+  containers:
+    - image: lahcenedergham/cinemaapi
+    name: cinemaapi
+     livenessProbe:
+      httpGet:
+       path: /
+       port: 8080
